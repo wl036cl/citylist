@@ -1,0 +1,27 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Document</title>
+</head>
+    <body></body>
+</html>-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>城市列表</title>
+    <link href="http://img4.peiyinxiu.com/web/common/css/appbase.min.css" rel="stylesheet" />
+    <link href="css/citylist.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="city_container"></div>
+</body>
+<script src="http://img4.peiyinxiu.com/web/common/js/appbase.js"></script>
+<script src="js/citylist.js"></script>
+<script>
+    cityList.init(document.getElementById('city_container'), function (data) {
+        console.log(data);
+    });
+</script>
+</html>
