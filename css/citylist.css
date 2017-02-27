@@ -1,101 +1,126 @@
 html,
 body {
-  overflow: hidden;
-  height: 100%;padding:0;margin:0;
+    overflow: hidden;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
-ul li{list-style:none;}
-ul,li,p{padding:0;margin:0;}
+
+ul li {
+    list-style: none;
+}
+
+ul, li, p {
+    padding: 0;
+    margin: 0;
+}
+
 #city_container {
-  position: relative;
+    position: relative;
 }
+
 .city_name {
-  color: #6f6f6f;
-  width: 85%;
-  text-indent: 1em;
-  border-bottom: 1px solid #f1f2f4;
-  padding: .6rem 0;
-  font-size: 1.2rem;
-  cursor: pointer;
+    color: #6f6f6f;
+    width: 85%;
+    text-indent: 1em;
+    border-bottom: 1px solid #f1f2f4;
+    padding: .6rem 0;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
+
 #search_wrap {
-  background-color: #f1f2f4;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  left: 0;
-  z-index: 2;
-  padding: .5rem 0 .5rem .5rem;
+    background-color: #f1f2f4;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 2;
+    padding: .5rem 0 .5rem .5rem;
 }
+
 #search_wrap p {
-  width: 90%;
-  background-color: #fff;
-  -moz-border-radius: 4rem;
-  -webkit-border-radius: 4rem;
-  border-radius: 4rem;
-  border: 1px solid #e0e0e0;
+    width: 90%;
+    background-color: #fff;
+    -moz-border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    border-radius: 4rem;
+    border: 1px solid #e0e0e0;
 }
+
 #search_wrap p img {
-  vertical-align: middle;
-  width: 1.1rem;
-  margin-left: .6rem;
+    vertical-align: middle;
+    width: 1.1rem;
+    margin-left: .6rem;
 }
+
 #search_wrap p input {
-  background-color: transparent;
-  vertical-align: middle;
-  width: 80%;
-  font-size: 1.1rem;
-  margin-left: .5rem;
-  border: none;
-  outline: none;
-  font-family: '黑体';
-  padding: .3rem 0;
+    background-color: transparent;
+    vertical-align: middle;
+    width: 80%;
+    font-size: 1.1rem;
+    margin-left: .5rem;
+    border: none;
+    outline: none;
+    font-family: '黑体';
+    padding: .3rem 0;
 }
+
 #search_wrap p input::-webkit-input-placeholder {
-  color: #d4d4d4 !important;
-  /* WebKit browsers */
+    color: #d4d4d4 !important;
+    /* WebKit browsers */
 }
+
 #search_wrap p input:-moz-placeholder {
-  color: #d4d4d4 !important;
-  /* Mozilla Firefox 4 to 18 */
+    color: #d4d4d4 !important;
+    /* Mozilla Firefox 4 to 18 */
 }
+
 .page {
-  overflow-x: hidden;
-  overflow-y: auto;
-  padding-top: 3rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: 3rem;
 }
+
 #search_ul {
-  background-color: #fff;
-  display: none;
+    background-color: #fff;
+    display: none;
 }
+
 #search_ul li {
-  width: 100%;
+    width: 100%;
 }
+
 .city_list {
-  background-color: #fff;
+    background-color: #fff;
 }
+
 .city_list .city_letter {
-  background-color: #f1f2f4;
-  color: #e83232;
-  text-indent: .5em;
-  padding: .2rem 0;
+    background-color: #f1f2f4;
+    color: #e83232;
+    text-indent: .5em;
+    padding: .2rem 0;
 }
+
 .city_list li:last-child {
-  border-bottom: none;
+    border-bottom: none;
 }
+
 #letter_ul {
-  position: fixed;
-  top: 50%;
-  right: 0rem;
-  -moz-transform: translate3d(0, -50%, 0);
-  -ms-transform: translate3d(0, -50%, 0);
-  -o-transform: translate3d(0, -50%, 0);
-  -webkit-transform: translate3d(0, -50%, 0);
-  transform: translate3d(0, -50%, 0);
-  z-index: 2;
+    position: fixed;
+    top: 50%;
+    right: 0rem;
+    -moz-transform: translate3d(0, -50%, 0);
+    -ms-transform: translate3d(0, -50%, 0);
+    -o-transform: translate3d(0, -50%, 0);
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+    z-index: 2;
 }
+
 #letter_ul li {
-  cursor: pointer;
-  padding: 0 1rem;
-  font-size: 1.2rem;
-  color: #197cd4;
+    cursor: pointer;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    color: #197cd4;
 }
